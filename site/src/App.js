@@ -22,14 +22,12 @@ function App() {
 
 
       <footer className="App-footer">
-          An
-          <a
+          An&nbsp;<a
               className="App-link"
               href="https://achinth.ca"
               target="_blank"
               rel="noopener noreferrer"
-          >  Achinth Bharadwaj
-          </a> production.
+          >Achinth Bharadwaj</a>&nbsp;production.
       </footer>
     </div>
   );
