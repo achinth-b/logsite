@@ -6,8 +6,8 @@ import {projectList} from '../assets/information'
 class Projects extends Component {
     render(){
         return (
-            <div>
-                <h2> Projects! </h2>
+            <div className='projects'>
+                <h2> Projects </h2>
                 {this.renderProjects()}
             </div>
         )

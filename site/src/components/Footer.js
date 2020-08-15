@@ -6,13 +6,13 @@ class Footer extends Component {
         return (
 
                 <div className='App-footer'>
-                    <div className='footer-text'> made with 💖, &nbsp;
+                    <div className='footer-text'> made with 💖, by&nbsp;
                         <a className="App-link"
                            href="https://achinth.ca"
                            target="_blank"
                            rel="noopener noreferrer">
-                            Achinth Bharadwaj
-                        </a>&nbsp; © 2020.
+                            Achinth
+                        </a>&nbsp;© 2020.
                     </div>
                 </div>
         )
