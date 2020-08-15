@@ -1,25 +1,23 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-
 
 const menu = [
     {
-        section: 'home',
+        section: '#home',
         component: 'Home'
     },
 
     {
-        section: 'skills',
+        section: '#skills',
         component: 'Skills'
     },
 
     {
-        section: 'projects',
+        section: '#projects',
         component: 'Projects'
     },
 
     {
-        section: 'experience',
+        section: '#experience',
         component: 'Experience'
     }
 ];
@@ -36,11 +34,12 @@ class StickyHeader extends Component {
     renderHeader() {
         return menu.map((component) => {
             return (
-                <Link to={`/${component.section}`}>
-                <div className='nav-component'>
-                        { component.section }
+                <div className="nav-item" key={component.section}>
+                    <a  className="App-link"
+                        href={component.section} >
+                        {component.component}
+                    </a>
                 </div>
-                </Link>
             )
         })
     }

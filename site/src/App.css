@@ -13,7 +13,23 @@
   }
 }
 
-.App-header {
+.stickyHeader {
+  display: inline-list-item;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  length: 100%;
+  background-color: #282c34;
+
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  position: center;
+}
+
+.App-home {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,26 +37,34 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #CCCDDD;
 }
 
 .App-footer {
   background-color: #282c34;
   padding-right: 10px;
-  min-height: 10vh;
+  min-height: 5vh;
   display: block;
   flex-direction: row;
   align-items: center;
   text-align: right;
   justify-content: right;
   font-size: calc(3px + 2vmin);
-  color: white;
+  color: #CCCDDD;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #CCCDDD;
 }
 
+.footer-text{
+  display: inline-block;
+  text-align: right;
+  padding:  2.5vh 2.5vh 2.5vh 2.5vh;
+}
+a {
+  color: #CCCDDD;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
