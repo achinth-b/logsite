@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import {firstname, lastname} from '../assets/information'
-
+import Contact from './Contact'
 
 // make sure to add a button for the resume and linkedin buttons
+
 class Home extends Component {
     constructor(props) {
         super(props);}
@@ -16,7 +17,8 @@ class Home extends Component {
                  Hey! I'm { firstname } { lastname }, an incoming third year engineering student
                  over at the University of British Columbia!
              </h3>
-             This is the best site I can make.
+
+             <Contact/>
 
          </div>
          )

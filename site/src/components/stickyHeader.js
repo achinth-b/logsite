@@ -19,6 +19,11 @@ const menu = [
     {
         section: '#experience',
         component: 'Experience'
+    },
+
+    {
+        section: '#contact',
+        component: 'Contact'
     }
 ];
 // remember to write a stickyHeader.css class for this bad boy

@@ -20,3 +20,8 @@ export var projectList = [
     }
 
 ];
+
+export var linkedinURL = 'https://www.linkedin.com/in/logan-khan-b53aa81a2/'
+export var emailLink = "mailto:lalkh11@hotmail.com?Subject=Hi%20Logan!"
+
+

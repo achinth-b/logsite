@@ -53,8 +53,14 @@
   color: #CCCDDD;
 }
 
+
 .App-link {
   color: #CCCDDD;
+  text-decoration: none;
+}
+
+.contacts{
+  margin: auto;
 }
 
 .footer-text{
