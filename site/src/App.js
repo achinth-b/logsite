@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Projects from "./components/Projects";
 import Footer from './components/Footer'
 import './App.css';
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
 
         <ScrollableAnchor id={'home'}>
             <Home/>
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={'contact'}>
+            <Contact/>
         </ScrollableAnchor>
 
         <ScrollableAnchor id={'projects'}>

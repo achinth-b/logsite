@@ -18,8 +18,6 @@ class Home extends Component {
                  over at the University of British Columbia!
              </h3>
 
-             <Contact/>
-
          </div>
          )
 

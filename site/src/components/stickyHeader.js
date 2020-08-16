@@ -7,6 +7,11 @@ const menu = [
     },
 
     {
+        section: '#contact',
+        component: 'Contact'
+    },
+
+    {
         section: '#skills',
         component: 'Skills'
     },
@@ -20,11 +25,6 @@ const menu = [
         section: '#experience',
         component: 'Experience'
     },
-
-    {
-        section: '#contact',
-        component: 'Contact'
-    }
 ];
 // remember to write a stickyHeader.css class for this bad boy
 class StickyHeader extends Component {
